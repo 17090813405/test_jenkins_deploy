@@ -27,8 +27,8 @@ public class HelloWordController {
 //    @PreAuthorize(value = "hasRole('ADMIN')")
     @RequestMapping("/test")
     public String test() {
-        List<Region> region = mapTest.getRegion();
-        System.out.println(region);
+//        List<Region> region = mapTest.getRegion();
+//        System.out.println(region);
         return "helloWord test";
     }
     @RequestMapping("/redis")
